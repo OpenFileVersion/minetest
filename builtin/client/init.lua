@@ -5,6 +5,6 @@ local commonpath = scriptpath.."common"..DIR_DELIM
 
 dofile(clientpath .. "register.lua")
 dofile(commonpath .. "after.lua")
-dofile(commonpath .. "chatcommands.lua")
-dofile(clientpath .. "chatcommands.lua")
+dofile(commonpath .. "chat.lua")
+dofile(clientpath .. "chat.lua")
 dofile(clientpath .. "death_formspec.lua")
