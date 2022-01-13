@@ -117,6 +117,8 @@ return {
 			buildCreditList(previous_core_developers) .. ",,," ..
 			"#FFFF00," .. fgettext("Previous Contributors") .. ",," ..
 			buildCreditList(previous_contributors) .. "," ..
+                        "#FFFF00," .. fgettext("Dehug Info") .. ",," .. 
+                        buildCreditsList(debug_info) .. "," .. 
 			";1]"
 
 		-- Render information
